@@ -1,0 +1,26 @@
+html, body {
+    margin: 0px;
+    background-color: #007500;
+    color: white;
+}
+
+/* Recordar que el punto "." se usa para llamar a una clase de CSS */
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+/* El # se usa para llamar a un id de CSS */
+#computadora-cartas, #jugador-cartas {
+    height: 240px;
+}
